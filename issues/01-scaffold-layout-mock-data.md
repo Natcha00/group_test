@@ -12,13 +12,13 @@ slice นี้ยังไม่มี logic UI — มีเพื่อให
 
 ## เกณฑ์การรับงาน
 
-- [ ] `npm run dev` รันได้ไม่มี error
-- [ ] layout แบ่ง 40:60 เห็นชัดเจน พร้อม header chip ถูกต้องทั้งสองฝั่ง
-- [ ] chip แสดงชื่อแบรนด์ "Stride" ใน header
-- [ ] `lib/mockData.ts` export ข้อมูล stock, sales, goods-receive ครอบคลุม 8 สาขา × 6 SKU พร้อม type
-- [ ] RUN-A/Central Siam มี on_hand=18, avg_daily_sales=12 / CentralWorld มี on_hand=210, avg_daily_sales=1
-- [ ] TRL-Y มีข้อมูลยอดขายสะท้อนการตก ~34% ใน 3 สาขาภาคเหนือ
-- [ ] LIF-1, KID-1 มียอดขายและสต็อกสมดุล
+- [x] `npm run dev` รันได้ไม่มี error
+- [x] layout แบ่ง 40:60 เห็นชัดเจน พร้อม header chip ถูกต้องทั้งสองฝั่ง
+- [x] chip แสดงชื่อแบรนด์ "Stride" ใน header
+- [x] `lib/mockData.ts` export ข้อมูล stock, sales, goods-receive ครอบคลุม 8 สาขา × 6 SKU พร้อม type
+- [x] RUN-A/Central Siam มี on_hand=18, avg_daily_sales=12 / CentralWorld มี on_hand=210, avg_daily_sales=1
+- [x] TRL-Y มีข้อมูลยอดขายสะท้อนการตก ~34% ใน 3 สาขาภาคเหนือ
+- [x] LIF-1, KID-1 มียอดขายและสต็อกสมดุล
 
 ## ขึ้นกับ
 
