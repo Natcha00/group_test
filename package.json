@@ -1,15 +1,17 @@
 {
-  "name": "next-temp",
+  "name": "supplier-connect-ai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "db:seed": "npx tsx --env-file=.env.local lib/seed.ts"
   },
   "dependencies": {
     "next": "16.2.9",
+    "postgres": "^3.4.9",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
